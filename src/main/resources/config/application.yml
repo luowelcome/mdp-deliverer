@@ -2,7 +2,7 @@
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://localhost:3306/mdp?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/mdp?useUnicode=true&characterEncoding=utf8&serverTimezone=America/New_York
     username: root
     password: zzkdsbsb
     driver-class-name: com.mysql.cj.jdbc.Driver
